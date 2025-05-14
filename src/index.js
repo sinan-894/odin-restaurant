@@ -14,3 +14,7 @@ navButtonsArray.forEach((buttonName)=>{
 })
 header.appendChild(nav)
 document.body.appendChild(header)
+
+const contentDiv = document.createElement('div')
+contentDiv.id  = 'content'
+document.body.appendChild(contentDiv)
