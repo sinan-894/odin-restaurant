@@ -9,7 +9,7 @@ export function home(){
     const paragraphContainer = document.createElement('div');
     const aboutUs =  document.createElement('section');
     const aboutUsText = document.createElement('p');
-    aboutUsText.textContent = "'Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again."
+    aboutUsText.textContent = "A far cry from its sticky days as The Beef, Chef Carmy Berzatto’s renovated restaurant features gorgeous dishes — just ignore those noises from the kitchen!"
     aboutUs.appendChild(aboutUsText)
     const hours =  document.createElement('section');
     const hoursTitle = document.createElement('h3');

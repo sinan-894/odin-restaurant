@@ -4,6 +4,7 @@ import { home } from "./home";
 
 
 initPageLoad()
+//to make home page appear when the website is loaded
 home()
 
 
