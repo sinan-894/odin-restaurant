@@ -1,0 +1,47 @@
+body {
+    --background-color-value:#f8f8f8;
+    background-color: var(--background-color-value);
+    margin:0px;
+}
+
+
+header{
+    border-bottom: 2px solid black;
+    height: 60px;
+    padding-left: 40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: max(20%,200px);
+}
+
+
+.nav-button {
+    background-color: var(--background-color-value);
+    border: 0px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0px;
+}
+
+
+.title-text{
+    font-size: 23vw;
+    text-align: center;
+    margin:0px;
+}
+
+.title-div{
+    padding-left: 40px;
+    padding-right:40px;
+    
+}
+
+.title-div > img {
+    width: 100%;
+}

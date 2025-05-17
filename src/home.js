@@ -1,10 +1,18 @@
+import bearFrontImage from "./bear-front.jpeg" 
+
+
 export function home(){
     const contentContainer = document.querySelector("#content");
     const title = document.createElement('div');
+    title.classList.add('title-div')
     const titleText = document.createElement('h1')
-    titleText.textContent  = "The Bear Restaurant"
+    titleText.textContent  = "The Bear"
     titleText.classList.add('title-text');
     title.appendChild(titleText)
+    const titleImage = document.createElement('img');
+    titleImage.src = bearFrontImage;
+    title.appendChild(titleImage);
+
 
     const paragraphContainer = document.createElement('div');
     const aboutUs =  document.createElement('section');
