@@ -1,18 +1,21 @@
 body {
     --background-color-value:#f8f8f8;
+    --global-padding-value:40px;
+    --margin-bottom-line-distance-value:65px;
     background-color: var(--background-color-value);
-    margin:0px;
+    margin: 0px;
 }
 
 
 header{
     border-bottom: 2px solid black;
     height: 60px;
-    padding-left: 40px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    padding-left: var(--global-padding-value);
 }
+
 
 nav{
     display: grid;
@@ -31,17 +34,20 @@ nav{
 
 
 .title-text{
-    font-size: 23vw;
+    font-size: 24vw;
     text-align: center;
     margin:0px;
 }
 
 .title-div{
-    padding-left: 40px;
-    padding-right:40px;
+    padding-left: var(--global-padding-value);
+    padding-right:var(--global-padding-value);
+    border-bottom: 2px solid black;
+    
     
 }
 
 .title-div > img {
     width: 100%;
+    margin-bottom: var(--margin-bottom-line-distance-value);
 }

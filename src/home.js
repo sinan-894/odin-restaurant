@@ -5,7 +5,7 @@ export function home(){
     const contentContainer = document.querySelector("#content");
     const title = document.createElement('div');
     title.classList.add('title-div')
-    const titleText = document.createElement('h1')
+    const titleText = document.createElement('p')
     titleText.textContent  = "The Bear"
     titleText.classList.add('title-text');
     title.appendChild(titleText)
