@@ -8,7 +8,7 @@ export function home(){
     title.classList.add('title-div')
     const titleText = document.createElement('p')
     titleText.textContent  = "The Bear"
-    titleText.classList.add('title-text');
+    titleText.classList.add('title-text-main');
     title.appendChild(titleText)
     const titleImage = document.createElement('img');
     titleImage.src = bearFrontImage;
@@ -25,22 +25,15 @@ export function home(){
     aboutUsImage.src = bearStaffImage;
     aboutUs.appendChild(aboutUsImage);
 
-    const hours =  document.createElement('section');
-    const hoursTitle = document.createElement('h3');
-    hoursTitle.textContent = 'Hours'
-    const hoursText = document.createElement("p")
-    hoursText.innerHTML =" Sunday: 8am - 8pm<br>Monday: 6am - 6pm<br>Tuesday: 6am - 6pm<br>Wednesday: 6am - 6pm<br>Thursday: 6am - 10pm<br>Friday: 6am - 10pm<br>Saturday: 8am - 10pm"
-    hours.appendChild(hoursTitle)
-    hours.appendChild(hoursText)
     const location =  document.createElement('section');
+    location.classList.add('section-location');
     const locationTitle = document.createElement('h3');
     locationTitle.textContent = 'Location'
     const locationText = document.createElement("p")
-    locationText.textContent = "123 Forest Drive, Forestville, Maine"
+    locationText.textContent = "Fulton Market District,Chicago,U.S.A"
     location.appendChild(locationTitle)
     location.appendChild(locationText)
     paragraphContainer.appendChild(aboutUs)
-    paragraphContainer.appendChild(hours)
     paragraphContainer.appendChild(location)
 
     contentContainer.appendChild(title)
