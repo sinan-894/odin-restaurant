@@ -144,3 +144,35 @@ nav{
 .menu-item>img{
     width: min(824px,100%);
 }
+
+
+.contact-title{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-left: var(--global-padding-value);
+    padding-right: var(--global-padding-value);
+    border-bottom: var(--border-bottom);
+}
+
+.contact-item{
+    margin-top: var(--margin-bottom-line-distance-value);
+    padding-bottom: var(--margin-bottom-line-distance-value);
+    padding-left: var(--global-padding-value);
+    padding-right: var(--global-padding-value);
+    border-bottom: var(--border-bottom);
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+}
+
+.text-section >h4 {
+    font-size: 1.5em;
+}
+
+.text-section >p{
+    font-size: 0.75em;
+}
+
+.contact-item > img{
+    width:50%
+}
