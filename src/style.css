@@ -104,4 +104,43 @@ nav{
     font-size: 8vw;
     text-align: center;
     margin:0px;
+    margin-bottom: 25px;
+}
+
+.menu-title-div{
+    margin-top: var(--margin-bottom-line-distance-value);
+    padding-bottom: var(--margin-bottom-line-distance-value);
+    padding-left: var(--global-padding-value);
+    padding-right: var(--global-padding-value);
+    border-bottom: var(--border-bottom);
+}
+
+.title-image{
+    display: flex   ;
+    justify-content: space-between;
+}
+
+.title-image>img{
+    width: 300px;
+    height: 240px;
+}
+
+
+.menu-div{
+    text-align: center;
+    font-size: 2em;
+    
+
+}
+
+.menu-item{
+    margin-top: var(--margin-bottom-line-distance-value);
+    padding-bottom: var(--margin-bottom-line-distance-value);
+    padding-left: var(--global-padding-value);
+    padding-right: var(--global-padding-value);
+    border-bottom: var(--border-bottom);
+}
+
+.menu-item>img{
+    width: min(824px,100%);
 }
