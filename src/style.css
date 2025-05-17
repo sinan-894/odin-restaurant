@@ -51,3 +51,25 @@ nav{
     width: 100%;
     margin-bottom: var(--margin-bottom-line-distance-value);
 }
+
+
+.section-paragraph{
+    margin-top: var(--margin-bottom-line-distance-value);
+    padding-bottom: var(--margin-bottom-line-distance-value);
+    border-bottom: 2px solid black;
+    display: flex;
+    padding-left: var(--global-padding-value);
+    padding-right:var(--global-padding-value);
+    font-size: 2em;
+    gap:20px;
+    justify-content: space-between;
+
+}
+.section-paragraph > p{
+    width: 35%;
+}
+
+.section-paragraph >img{
+    width: 50%;
+    
+}

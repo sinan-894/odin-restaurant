@@ -1,4 +1,5 @@
-import bearFrontImage from "./bear-front.jpeg" 
+import bearFrontImage from "./bear-front.jpeg"
+import bearStaffImage from "./bear-staff.jpg" 
 
 
 export function home(){
@@ -16,9 +17,14 @@ export function home(){
 
     const paragraphContainer = document.createElement('div');
     const aboutUs =  document.createElement('section');
+    aboutUs.classList.add('section-paragraph');
     const aboutUsText = document.createElement('p');
     aboutUsText.textContent = "A far cry from its sticky days as The Beef, Chef Carmy Berzatto’s renovated restaurant features gorgeous dishes — just ignore those noises from the kitchen!"
-    aboutUs.appendChild(aboutUsText)
+    aboutUs.appendChild(aboutUsText);
+    const aboutUsImage = document.createElement('img');
+    aboutUsImage.src = bearStaffImage;
+    aboutUs.appendChild(aboutUsImage);
+
     const hours =  document.createElement('section');
     const hoursTitle = document.createElement('h3');
     hoursTitle.textContent = 'Hours'
